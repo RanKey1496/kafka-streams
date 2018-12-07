@@ -6,7 +6,11 @@
 
     <groupId>com.rankey.kafka.streams</groupId>
     <artifactId>streams-starter-project</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>kafka-streams-bank-balance</module>
+    </modules>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams -->
